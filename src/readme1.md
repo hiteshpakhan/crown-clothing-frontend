@@ -37,3 +37,20 @@
         class -- extends React.Component {
 
         }
+
+* installing react routing library
+
+        yarn add react-router-dom
+
+* if you get an issue after installing the router dom you can use the following method 
+
+        error:
+        "babel-jest": "24.7.1"                 ... 24.7.1 is the version of the babel-jest
+
+        solution :
+        you just have to change the version manually
+        for this we can add the resolution property inside the package.json
+        and set the babel-jest version you want 
+        and reinstall the packages by yarn install or npm install
+
+* 
