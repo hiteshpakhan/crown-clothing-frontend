@@ -53,4 +53,10 @@
         and set the babel-jest version you want 
         and reinstall the packages by yarn install or npm install
 
-* 
+* route has the three important properties 
+
+        path            you can set the path here where the component you provide to the component will be render here 
+        
+        component       here you can set the component name you want to render
+        
+        exact           you can change the value of this to false but its true at default
