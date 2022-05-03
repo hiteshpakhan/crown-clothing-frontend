@@ -60,3 +60,5 @@
         component       here you can set the component name you want to render
         
         exact           you can change the value of this to false but its true at default
+                        if its true then it means path need to be exactly same for component to be render 
+                        
