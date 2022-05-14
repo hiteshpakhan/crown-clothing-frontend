@@ -1,5 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';   // importing the Route that support the routing
+// there is another "Link" that we can import from the react-router-dom
+// <Link to="/topics"> example </Link> 
 import './App.css';
 import HomePage from './pages/homepage/homepage.component';
 

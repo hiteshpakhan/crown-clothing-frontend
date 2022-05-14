@@ -62,3 +62,16 @@
         exact           you can change the value of this to false but its true at default
                         if its true then it means path need to be exactly same for component to be render 
                         
+        Link            
+
+        <Route>
+
+        <Link>          link lets us dinamically pass in the link where we want to take us to
+                        <Link to="/path"> example </Link>
+
+        you can also give the parameter in the url by : sign after the url and then the value will get in the param object in the props 
+        you can find the value like {props.match.param.topicID}
+
+
+* import {withRouter} from "react-router-dom";
+
